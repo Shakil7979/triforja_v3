@@ -21,6 +21,13 @@
     .banner_right img {
         max-width: 502px !important; 
     }
+
+    .single_banner_item {
+        height: 650px;
+    }
+    .single_banner_item_1 .banner_right img { 
+        max-width: 583px !important; 
+    }
 }
 
 @media all and (max-width: 1399px) {
@@ -30,6 +37,10 @@
         width: 222px;
         height: 252px;
         padding: 101px 0;
+    }
+    
+    .single_banner_item { 
+        height: 543px; 
     }
     .banner_area_carousel.owl-carousel .owl-nav button.owl-next img ,
     .banner_area_carousel.owl-carousel .owl-nav button.owl-prev img {
@@ -63,8 +74,8 @@
     }
     .single_banner_item_1 .banner_right img {
         transform: translateY(-10px);
-        margin-left: 17px;
-        max-width: 359px !important;
+        margin-left: -94px;
+        max-width: 486px !important;
     }
 
     .dental_single p {
@@ -539,6 +550,12 @@
     .banner_single_items img {
         max-width: 220px;
     }
+    .banner_right img {
+        max-width: 298px !important;
+    }
+    .single_banner_item {
+        height: 466px;
+    }
     .single_banner_item_1 .banner_right img {
         transform: translateY(-10px);
         margin-left: -23px;
@@ -760,6 +777,13 @@
     .banner_top_area {
         gap: 50px;
         padding: 125px 0 125px;
+    }
+    .single_banner_item {
+        height: 644px;
+        padding-bottom: 2px;
+    }
+    .single_banner_item_1 .banner_right img { 
+        position: inherit; 
     }
     .single_banner_item { 
         flex-direction: column-reverse; 

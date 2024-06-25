@@ -3292,11 +3292,12 @@ input[type=number] {
 }
 
 
-
 .single_banner_item {
 	display: flex;
 	align-items: end;
 	justify-content: space-between;
+	height: 761px;
+	padding-bottom: 122px;
 }
 
 .left_side_banner h3 {
@@ -3344,7 +3345,12 @@ input[type=number] {
 }
 
 .banner_area_carousel .owl-dots {
-	margin-top: 48px;
+	/* margin-top: 48px; */
+	position: absolute;
+	bottom: 62px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
 }
 
 
@@ -3354,7 +3360,7 @@ input[type=number] {
 }
 
 .banner_area_carousel {
-	padding-bottom: 94px;
+	/* padding-bottom: 94px; */
 }
 
 .left_side_banner a {
@@ -3419,9 +3425,8 @@ input[type=number] {
 	max-width: 576px; 
 }
 
-.single_banner_item_5
-.left_side_banner { 
-	max-width: 370px; 
+.single_banner_item_5 .left_side_banner {
+	max-width: 462px;
 }
 
 .single_banner_item_1
@@ -3429,8 +3434,10 @@ input[type=number] {
 	flex: 0 0 47%;
 }
 
-.single_banner_item_1
-.banner_right img {
-	transform: translateY(-29px);
-	margin-left: 72px;
+.single_banner_item_1 .banner_right img {
+	transform: translateY(-13px);
+	margin-left: 30px;
+	max-width: 688px !important;
+	position: absolute;
+	top: 0;
 }
