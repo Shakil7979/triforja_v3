@@ -3326,7 +3326,7 @@ input[type=number] {
 .left_side_banner {
 	width: 100%;
 	max-width: 663px;
-	margin: 0 auto 0 187px;
+	margin: 0 auto 0 144px;
 	flex: 0 0 40%;
 }
 
@@ -3335,6 +3335,7 @@ input[type=number] {
 	border-radius: 1px;
 	width: 6px;
 	height: 6px;  
+	margin: 0 23px;
 }
 
 .banner_area_carousel.owl-theme .owl-dots .owl-dot.active span {
@@ -3396,11 +3397,16 @@ input[type=number] {
 }
 
 .banner_area_carousel.owl-carousel .owl-nav button.owl-next { 
-	right: 65px; 
+	right: 54px; 
 }
 
 .banner_area_carousel.owl-carousel .owl-nav button.owl-prev{ 
-	left: 65PX; 
+	left: 54px; 
+}
+
+.banner_area_carousel.owl-carousel .owl-nav button.owl-next img ,
+.banner_area_carousel.owl-carousel .owl-nav button.owl-prev img {
+	width: 45px;
 }
 
 .single_banner_item_2 .left_side_banner { 
@@ -3436,8 +3442,8 @@ input[type=number] {
 
 .single_banner_item_1 .banner_right img {
 	transform: translateY(-13px);
-	margin-left: 30px;
+	margin-left: 40px;
 	max-width: 688px !important;
 	position: absolute;
 	top: 0;
-}
+} 
