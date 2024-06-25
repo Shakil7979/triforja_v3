@@ -15,6 +15,12 @@
         font-size: 20px;
         line-height: 34px;
     }
+    .banner_right img {
+        transform: translateY(-45px);
+    }
+    .banner_right img {
+        max-width: 502px !important; 
+    }
 }
 
 @media all and (max-width: 1399px) {
@@ -24,6 +30,41 @@
         width: 222px;
         height: 252px;
         padding: 101px 0;
+    }
+    .banner_area_carousel.owl-carousel .owl-nav button.owl-next img ,
+    .banner_area_carousel.owl-carousel .owl-nav button.owl-prev img {
+        width: 36px;
+    }
+    .banner_right img {
+        max-width: 380px !important;
+    }
+    .single_banner_item_2 .left_side_banner {
+        max-width: 353px;
+    }
+    .single_banner_item_3 .left_side_banner {
+        max-width: 212px;
+    }
+    .single_banner_item_4 .left_side_banner {
+        max-width: 326px;
+    }
+    .single_banner_item_5 .left_side_banner {
+        max-width: 331px;
+    }
+    .single_banner_item_6  .left_side_banner { 
+        max-width: 220px; 
+    }
+    .left_side_banner h3 { 
+        font-size: 46px; 
+        line-height: 55px;
+    }
+    .left_side_banner p { 
+        font-size: 18px; 
+        line-height: 26px; 
+    }
+    .single_banner_item_1 .banner_right img {
+        transform: translateY(-10px);
+        margin-left: 17px;
+        max-width: 359px !important;
     }
 
     .dental_single p {
@@ -498,6 +539,14 @@
     .banner_single_items img {
         max-width: 220px;
     }
+    .single_banner_item_1 .banner_right img {
+        transform: translateY(-10px);
+        margin-left: -23px;
+        max-width: 303px !important;
+    }
+    .banner_area_carousel.owl-carousel .owl-nav button.owl-next img, .banner_area_carousel.owl-carousel .owl-nav button.owl-prev img {
+        width: 20px;
+    }
 
     .why_banner_left,
     .about_banner_main {
@@ -711,6 +760,23 @@
     .banner_top_area {
         gap: 50px;
         padding: 125px 0 125px;
+    }
+    .single_banner_item { 
+        flex-direction: column-reverse; 
+    }
+    .single_banner_item_1 .banner_right img { 
+        margin: 0 auto;
+    }
+    .left_side_banner {
+        margin: 0 auto;
+        max-width: 432px !important;
+        width: 100%;
+    }
+    .banner_right img {
+        transform: translateY(-33px);
+    }
+    .banner_right img { 
+        margin: 0 auto;
     }
     .sk_download_box {
         padding: 57px 0 0 0; 
@@ -1350,8 +1416,28 @@
     .logo a img {
         max-width: 150px;
     }
+    .left_side_banner { 
+        text-align: center;
+    }
+    .left_side_banner a { 
+        font-size: 18px; 
+    }
+    .banner_area_carousel.owl-carousel .owl-nav button.owl-next {
+        right: 0;
+    }
+    .banner_area_carousel.owl-carousel .owl-nav button.owl-prev {
+        left: 0;
+    }
     .footer_single.footer_single_last a:first-child, .headline-f {
         margin-bottom: 5px;
+    }
+    .left_side_banner h3 {
+        font-size: 35px;
+        line-height: 46px;
+    }
+    .left_side_banner p {
+        font-size: 16px;
+        line-height: 25px;
     }
     .career_banner_img {
         border-radius: 0 0 0 67px; 

@@ -1,11 +1,19 @@
 $(document).ready(function () {
     "use strict";
-    $('.owl-carousel').owlCarousel({
+    $('.our_client_content').owlCarousel({
         items: 1,
         loop: true,
         nav: true,
         dots: true,
         navText: ["<img src='assets/images/left_arrow.png'>", "<img src='assets/images/right_arrow.png'>"]
+    });
+
+    $('.banner_area_carousel').owlCarousel({
+        items: 1,
+        loop: true,
+        nav: true,
+        dots: true,
+        navText: ["<img src='assets/images/banner/left.png'>", "<img src='assets/images/banner/right.png'>"]
     });
 
    
